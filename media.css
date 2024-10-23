@@ -1,0 +1,80 @@
+
+@media screen and (max-width:480px) {
+    
+
+    .top-handline {
+        font-size: 12px;
+        margin-left: 10%;
+        margin-top: 15%;
+      }
+    
+      .handline {
+        font-size: 32px;
+        margin-left: 10%;
+        margin-top: 25%;
+        line-height: 38px;
+      }
+    
+      .bio {
+        margin-left: 5%;
+        margin-top: 50%;
+        font-size: 14px;
+        text-align: center; /* Center align text for smaller screens */
+      }
+    
+      .bio span {
+        margin-left: 0; /* Reset margin for span */
+        display: block; /* Display span as block for better layout */
+      }
+    
+      .btn-div {
+        width: 90%;
+        height: auto;
+        margin-top: 70%;
+        margin-left: 5%;
+        text-align: center; /* Center align buttons for smaller screens */
+      }
+    
+      .headbtn {
+        width: 70%;
+        height: 40px;
+        margin: 10px 0; /* Reduce margin for smaller screens */
+      }
+    
+      .tow {
+        margin: 10px 0;
+        width: 70%; /* Make the button width consistent */
+      }
+    
+      /* Swiper specific styles */
+      swiper-container {
+        width: 100%;
+        height: 100%;
+      }
+    
+      swiper-slide {
+        font-size: 14px; /* Reduce font size for smaller screens */
+        flex-direction: column; /* Stack content vertically */
+      }
+    
+      swiper-slide img {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+      }
+    
+      .autoplay-progress {
+        right: 10px;
+        bottom: 10px;
+        width: 40px;
+        height: 40px;
+      }
+    
+      .autoplay-progress svg {
+        stroke-width: 3px;
+      }
+    
+      .lor img {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+      }
+}
